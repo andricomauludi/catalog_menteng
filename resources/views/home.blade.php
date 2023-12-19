@@ -18,7 +18,7 @@
         @foreach($barangs as $barang)
         <div class="col-md-4">
             <div class="card">
-                <img class="card-img-top" src="{{ url('uploads') }}/{{ $barang->gambar }}" alt="Card image cap">
+                <img class="card-img-top"style="width:348.4px; height:200px; object-fit:cover;"src="{{ url('uploads') }}/{{ $barang->gambar }}" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">{{ $barang-> nama_barang}}</h5>
                         <p class="card-text">
